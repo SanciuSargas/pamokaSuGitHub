@@ -1,0 +1,101 @@
+﻿h1 {
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	color: #524e27;
+	font-size: 60px;
+}
+
+.klase {
+	display: flex;
+  	align-items: top;
+  	
+}
+
+
+.eile {
+	margin: 30px;
+	//border: 2px solid black;
+	width: 33%;
+}
+
+
+.suolas {
+	//border: 2px solid black;
+	width: 100%;
+	display: flex;
+  	align-items: center;
+}
+
+
+.vieta {
+	padding: 10px;
+	margin: 10px;
+	border: 4px solid #a17d4f;
+	width: 50%;
+	height: 40px;
+	border-radius: 6px;
+	background-color: #a9ab5b;
+}
+
+input[type=text] {
+	font-weight: 800;
+	width: 100%;
+	text-align: center;
+	border: none;
+	background-color: #a9ab5b;
+	color: #524e27;
+	font-size: 15px;
+}
+
+.submitinimas {
+	width: auto;
+  	padding-left: 30%;
+  	padding-right: 30%;
+}
+
+input[type=submit] {
+	width: 100%;
+	height: 100px;
+	border: none;
+	text-align: center;
+	background-color: #6d6726;
+	border-radius: 20px;
+	color: white;
+	font-size: 50px;
+}
+
+
+.pasirinkimai {
+	font-weight: 550;
+	width: 100%;
+	background-color: #e0d9879e;
+	color: #524e27;
+	border: none;
+}
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-color: #a3ddff;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 6%;
+}
+
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 5%;   /* Height of the footer */
+   background-color: #89c6ea;
+}
+
+p {
+	padding-left: 20px;
+}
